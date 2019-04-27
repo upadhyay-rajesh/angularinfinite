@@ -1,0 +1,8 @@
+com\rkcpinfo\dao\UserDao.class
+com\rkcpinfo\dao\impl\UserDaoImpl.class
+com\rkcpinfo\controller\UserController.class
+com\rkcpinfo\model\UserDetails.class
+com\rkcpinfo\Application.class
+com\rkcpinfo\BeanConfig.class
+com\rkcpinfo\service\impl\UserServiceImpl.class
+com\rkcpinfo\service\UserService.class
