@@ -17,6 +17,7 @@ public class UserDaoImpl implements UserDao {
 	private SessionFactory sessionFactory;
 
 	public List getUserDetails() {
+		
 		Criteria criteria = sessionFactory.openSession().createCriteria(UserDetails.class);
 		return criteria.list();
 	}
