@@ -16,10 +16,8 @@ import java.sql.*;
 public class CustomerRepository {
     @Autowired
     private JdbcTemplate jdbcTemplate;
-    
     @Autowired
     DataSource dataSource;
-
     public List<Customer> findAll() {
        List<Customer> result = jdbcTemplate.query(
                 "SELECT id, name, email, created_date FROM customer1",

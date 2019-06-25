@@ -1,7 +1,6 @@
 package com.rajesh.model;
 
 import java.util.Date;
-
 public class Customer {
    private int id;
    private String name;
